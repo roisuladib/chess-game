@@ -1,0 +1,32 @@
+.chessboard {
+   display: flex;
+   flex-direction: column;
+   border: 5px solid lightslategray;
+   border-radius: 4px;
+}
+
+.row {
+   display: flex;
+}
+
+.square {
+   height: 50px;
+   width: 50px;
+}
+
+.white {
+   background-color: white;
+}
+
+.black {
+   background-color: black;
+}
+
+.selected {
+   background-color: lightcoral;
+}
+
+.possible-move {
+   background-color: green;
+   transition: all 0.3s ease-in-out;
+}
